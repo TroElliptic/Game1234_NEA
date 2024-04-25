@@ -1,0 +1,16 @@
+.custom-button {
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 40px;
+    -fx-border-radius: 5px;
+}
+
+.custom-button:hover {
+    -fx-background-color: #45a049; /* Darker Green */
+}
+
+.custom-button:pressed {
+    -fx-background-color: #3e8e41; /* Even Darker Green */
+}
